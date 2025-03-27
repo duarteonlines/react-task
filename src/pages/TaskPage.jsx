@@ -26,7 +26,7 @@ const TaskPage = () => {
                 <div className="absolute top-4 left-4">
                     <button
                         onClick={handleGoBack}
-                        className="bg-yellow-500 text-black p-3 rounded-full hover:bg-yellow-400 transition duration-300 ease-in-out flex items-center justify-center"
+                        className="hover:cursor-pointer bg-yellow-500 text-black p-3 rounded-full hover:bg-yellow-400 transition duration-300 ease-in-out flex items-center justify-center"
                     >
                         <ChevronLeftIcon className="w-6 h-6" />
                     </button>
@@ -55,8 +55,6 @@ const TaskPage = () => {
                 </div>
             </div>
         </div>
-
-
     )
 }
 
